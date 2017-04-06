@@ -92,7 +92,7 @@ public class RestExecutor<client, HttpClient> {
 				resResponse.setHeader(header.getName(), header.getValue());
 			}
 		} catch (Exception e) {
-			e.printStackTrace(); // handle
+			e.printStackTrace(); 
 		}
 		return new RestValidator(resResponse);
 	}
@@ -163,7 +163,7 @@ public class RestExecutor<client, HttpClient> {
 				resResponse.setHeader(header.getName(), header.getValue());
 			}
 		} catch (Exception e) {
-			e.printStackTrace(); // handle
+			e.printStackTrace(); 
 		}
 		return new RestValidator(resResponse);
 	}
@@ -199,7 +199,7 @@ public class RestExecutor<client, HttpClient> {
 				resResponse.setHeader(header.getName(), header.getValue());
 			}
 		} catch (Exception e) {
-			e.printStackTrace(); // handle
+			e.printStackTrace(); 
 		}
 		return new RestValidator(resResponse);
 	}
